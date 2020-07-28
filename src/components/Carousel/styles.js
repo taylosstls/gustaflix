@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
-export const Title = styled.h3`
-  font-style: normal;
-  font-weight: normal;
-  font-size: 35px;
-  line-height: 1;
-  margin-bottom: 16px;
-  display: inline-block;
-  padding: 20px;
-  background: red;
-  line-height: 1;
-  border-radius: 4px;
+export const Title = styled.div`
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 8px;
+  text-transform: uppercase;
+  line-height: 16px;
+  max-width: 250px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -41,7 +44,7 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  
+
   li {
     margin-right: 16px;
   }
@@ -51,5 +54,9 @@ export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
   margin-left: 5%;
-  margin-bottom: 16px;
+  margin-top: 16px;
+
+  & + section {
+    margin-bottom: 16px;
+  }
 `;
