@@ -5,7 +5,7 @@ O código foi desenvolvido utilizando components, uma chamada com dados JSON pr�
 
 Para fazer download do modelo, basta clicar em <code>**↓ Code > Download Zip**</code> 😀
 
-Link de Preview: [https://gustaflix.vercel.app/](https://gustaflix.vercel.app/)
+Link de Preview no Vercel: [https://gustaflix.vercel.app/](https://gustaflix.vercel.app/)
 
 <p float="left">
 <img src="https://raw.githubusercontent.com/taylosstls/gustaflix/master/src/assets/img/gustaflix_apresentacao.png" width="500" alt="Gustaflix">
