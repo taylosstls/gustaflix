@@ -14,8 +14,7 @@
   --backEnd: #00C86F;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -26,4 +25,10 @@ body {
 
 a {
   color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
