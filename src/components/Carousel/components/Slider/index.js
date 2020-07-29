@@ -2,57 +2,96 @@
 import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
+import prevArrow from '../../../../assets/img/prev.svg';
+import nextArrow from '../../../../assets/img/next.svg';
 
 const Container = styled.ul`
   padding: 0;
   margin: 0;
+
+  .slick-prev {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  }
+
+  .slick-next {
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  }
+
   .slick-prev,
   .slick-next {
     z-index: 50;
-    top: 0;
-    bottom: 0;
+    top: 2px;
+    bottom: 6px;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: calc(90% - 8px);
+    padding: 0 13px;
+    transition: all .3s;
     transform: initial;
+
+    &:hover {
+      background-color: rgba(0,0,0, .8);
+    }
+
     &:before {
-      font-size: 30px;
+      content: '';
+      transition: all .3s;
+      width: 20px;
+      height: 38px;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
     }
   }
 
   .slick-prev {
-    left: 0;
+    left: 2px;
+    &:before {
+      background-image: url(${prevArrow});
+    }
   }
+
+
   .slick-next {
-    right: 16px;
+    right: 0;
+    &:before {
+      background-image: url(${nextArrow});
+    }
+  }
+
+  .slick-disabled {
+    opacity: 0;
   }
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 16px;
+  margin-right: 15px;
   img {
-    margin: 16px;
-    width: 298px;
-    height: 197px;
+    margin: 15px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
   }
 `;
 
+const Slider = ({ children }) => {
 
-const Slider = ({ children }) => (
-  <Container>
-    <SlickSlider {...{
-      dots: false,
-      infinite: false,
-      speed: 300,
-      centerMode: false,
-      variableWidth: true,
-      adaptiveHeight: true,
-    }}
-    >
-      {children}
-    </SlickSlider>
-  </Container>
-);
+  return (
+    <Container>
+      <SlickSlider {...{
+        dots: false,
+        infinite: true,
+        speed: 300,
+        centerMode: false,
+        variableWidth: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }}
+      >
+        {children}
+      </SlickSlider>
+    </Container>
+  );
+};
 
 export default Slider;

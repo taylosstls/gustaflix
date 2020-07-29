@@ -10,6 +10,17 @@ const CadastroCategoria = () => {
       <Link to="/cadastro/video">
         Cadastrar Vídeo
       </Link>
+
+      <form>
+        <label>
+          Nome da Categoria:
+          <input type="text" placeholder="Nome da Categoria" />
+        </label>
+
+        <button>
+          Cadastrar
+        </button>
+      </form>
     </TemplateBase>
   )
 }
