@@ -1,7 +1,22 @@
 import styled from 'styled-components';
 
+export const Box = styled.div`
+  position: relative;
+  transition: opacity .3s;
+
+  &:hover a,
+  &:focus a {
+    opacity: .6;
+  }
+
+  &:hover span {
+    opacity: 1;
+  }
+`;
+
 export const VideoCardContainer = styled.a`
   border: 2px solid;
+  background-color: var(--black);
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
@@ -19,14 +34,22 @@ export const VideoCardContainer = styled.a`
   display: flex;
   align-items: flex-end;
   padding: 16px;
-
+  z-index: 5;
   transition: opacity .3s;
-  &:hover,
-  &:focus {
-    opacity: .5;
-  }
 
   &:not(:first-child) {
     margin-left: 20px;
   }
+`;
+
+export const VideoCardContainerText = styled.span`
+  position: absolute;
+  z-index: 9;
+  bottom: 15px;
+  left: 15px;
+  right: 30px;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  transition: opacity .3s;
 `;
