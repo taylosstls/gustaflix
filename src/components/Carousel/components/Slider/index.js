@@ -10,6 +10,7 @@ const Container = styled.ul`
   margin: 0;
 
   .slick-prev {
+    border-bottom-left-radius: 8px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
   }
 
@@ -24,7 +25,7 @@ const Container = styled.ul`
     bottom: 6px;
     margin: auto;
     width: 50px;
-    height: calc(90% - 8px);
+    height: calc(100% - 8px);
     padding: 0 13px;
     transition: all .3s;
     transform: initial;

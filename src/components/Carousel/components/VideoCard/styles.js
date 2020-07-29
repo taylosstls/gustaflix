@@ -45,9 +45,13 @@ export const VideoCardContainer = styled.a`
 export const VideoCardContainerText = styled.span`
   position: absolute;
   z-index: 9;
-  bottom: 15px;
-  left: 15px;
-  right: 30px;
+  bottom: 0;
+  left: 0;
+  right: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
   opacity: 0;
   pointer-events: none;
   text-transform: uppercase;
