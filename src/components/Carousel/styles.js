@@ -21,6 +21,12 @@ export const Title = styled.div`
   }
 `;
 
+export const BoxInfo = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
 export const ExtraLink = styled.a`
   margin-left: 16px;
   text-decoration: none;

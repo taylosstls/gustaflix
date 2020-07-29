@@ -1,5 +1,5 @@
 import React from 'react';
-import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, BoxInfo, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
 
@@ -14,7 +14,7 @@ function Carousel({
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
-        <>
+        <BoxInfo>
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
@@ -23,7 +23,7 @@ function Carousel({
               {categoryExtraLink.text}
             </ExtraLink>
           }
-        </>
+        </BoxInfo>
       )}
       <Slider>
         {videos.map((video, index) => {
