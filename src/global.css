@@ -5,7 +5,7 @@
 
 :root {
   --primary: #DC1A28;
-  --black: #000000;
+  --black: #0a0a0a;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5;
@@ -20,7 +20,7 @@ html, body {
 }
 
 body {
-  background-color: #171717;
+  background-color: #141414;
 }
 
 a {

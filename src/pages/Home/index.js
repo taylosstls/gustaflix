@@ -12,7 +12,15 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área"}
+        videoDescription={`
+        Faala dev!
+        Você já usou alguma lib de animação no React.js?
+
+        Nesse vídeo eu, Guilherme Rodz, reproduzi o menu animado Stripe explicando sua complexidade, do zero!
+
+        Bora assistir?
+        Vaaleu! 💜
+        `}
       />
 
       <Carousel

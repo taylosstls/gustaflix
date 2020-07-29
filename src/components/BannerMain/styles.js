@@ -73,6 +73,7 @@ export const BannerMainContainer = styled.section`
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
+  white-space: pre-wrap;
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -92,7 +93,7 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(20,20,20,0.8);
   }
 
   &:after {
