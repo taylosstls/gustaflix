@@ -11,6 +11,7 @@ export const Box = styled.div`
 
   &:hover span {
     opacity: 1;
+    transform: translate(0, 0px);
   }
 `;
 
@@ -55,5 +56,6 @@ export const VideoCardContainerText = styled.span`
   opacity: 0;
   pointer-events: none;
   text-transform: uppercase;
-  transition: opacity .3s;
+  transition: all .3s;
+  transform: translate(0, -30px);
 `;
