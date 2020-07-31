@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import TemplateBase from '../../../components/Template';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 const CadastroCategoria = () => {
   const formDataInitial = {
@@ -42,19 +43,22 @@ const CadastroCategoria = () => {
         {formValues.name}
       </h1>
 
-      <Link to="/cadastro/video">
-        Cadastrar Vídeo
-      </Link>
-
       <form onSubmit={handleSubmit}>
 
         <FormField
           type="text"
-          label="Nome da Categoria"
+          label="Nome da categoria"
           name="name"
-          placeholder="Informe a categoria"
           onChange={handleChange}
           value={formValues.name}
+        />
+
+        <FormField
+          type="textarea"
+          label="Informe a descrição"
+          name="description"
+          onChange={handleChange}
+          value={formValues.description}
         />
 
         <FormField
@@ -65,9 +69,9 @@ const CadastroCategoria = () => {
           value={formValues.color}
         />
 
-        <button type="submit">
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       <ul>
@@ -78,6 +82,10 @@ const CadastroCategoria = () => {
           </li>
         ))}
       </ul>
+
+      <Link to="/cadastro/video">
+        Cadastrar Vídeo
+      </Link>
 
     </TemplateBase>
   );
