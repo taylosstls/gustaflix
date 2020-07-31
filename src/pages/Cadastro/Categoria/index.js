@@ -36,7 +36,7 @@ const CadastroCategoria = () => {
   };
 
   useEffect(() => {
-    fetch('http://localhost:3333/category')
+    fetch('http://localhost:8080/category')
       .then(async (getCategories) => {
         const response = await getCategories.json();
         setTimeout(() => {
