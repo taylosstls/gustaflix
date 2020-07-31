@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import TemplateBase from '../../../components/Template';
 import FormField from '../../../components/FormField';
-import { Link } from 'react-router-dom';
 
 const CadastroCategoria = () => {
-
   const formDataInitial = {
     name: '',
     description: '',
-    color: '#000000'
-  }
+    color: '#000000',
+  };
 
   const [category, setCategory] = useState([]);
   const [formValues, setFormValues] = useState(formDataInitial);
@@ -17,15 +16,15 @@ const CadastroCategoria = () => {
   function handleValue(key, value) {
     setFormValues({
       ...formValues,
-      [key]: value // name: value
-    })
+      [key]: value, // name: value
+    });
   }
 
   function handleChange(event) {
     handleValue(
       event.target.getAttribute('name'),
-      event.target.value
-    )
+      event.target.value,
+    );
   }
 
   const handleSubmit = (event) => {
@@ -33,12 +32,15 @@ const CadastroCategoria = () => {
 
     setCategory([...category, formValues]);
     setFormValues(formDataInitial);
-  }
-
+  };
 
   return (
     <TemplateBase>
-      <h1>Cadastro de Categoria: {formValues.name}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {' '}
+        {formValues.name}
+      </h1>
 
       <Link to="/cadastro/video">
         Cadastrar Vídeo
@@ -63,24 +65,22 @@ const CadastroCategoria = () => {
           value={formValues.color}
         />
 
-        <button>
+        <button type="submit">
           Cadastrar
         </button>
       </form>
 
       <ul>
-        {category.map((category, index) => {
-          return (
-            <li key={`${category}-${index}`}>
-              {category.name}
-            </li>
-          )
-        })
-        }
+        {category.map((cat, indice) => (
+          // eslint-disable-next-line react/no-array-index-key
+          <li key={`${cat}${indice}`}>
+            {cat.name}
+          </li>
+        ))}
       </ul>
 
-    </TemplateBase >
-  )
-}
+    </TemplateBase>
+  );
+};
 
 export default CadastroCategoria;

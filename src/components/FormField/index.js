@@ -1,10 +1,13 @@
 import React from 'react';
 
-function FormField({ label, type, name, value, placeholder, onChange }) {
+function FormField({
+  label, type, name, value, placeholder, onChange,
+}) {
   return (
     <div>
-      <label>
-        {label}:
+      <label htmlFor={name}>
+        {label}
+        :
         <input
           type={type}
           placeholder={placeholder}
@@ -14,7 +17,7 @@ function FormField({ label, type, name, value, placeholder, onChange }) {
         />
       </label>
     </div>
-  )
+  );
 }
 
 export default FormField;

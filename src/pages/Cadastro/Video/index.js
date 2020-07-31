@@ -1,17 +1,15 @@
 import React from 'react';
-import TemplateBase from '../../../components/Template';
 import { Link } from 'react-router-dom';
+import TemplateBase from '../../../components/Template';
 
-const CadastroVideo = () => {
-  return (
-    <TemplateBase>
-      <h1>Página de Cadastro de Vídeo</h1>
+const CadastroVideo = () => (
+  <TemplateBase>
+    <h1>Página de Cadastro de Vídeo</h1>
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
-    </TemplateBase>
-  )
-}
+    <Link to="/cadastro/categoria">
+      Cadastrar Categoria
+    </Link>
+  </TemplateBase>
+);
 
 export default CadastroVideo;

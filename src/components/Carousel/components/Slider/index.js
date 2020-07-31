@@ -75,24 +75,21 @@ export const SliderItem = styled.li`
   }
 `;
 
-const Slider = ({ children }) => {
-
-  return (
-    <Container>
-      <SlickSlider {...{
-        dots: false,
-        infinite: true,
-        speed: 300,
-        centerMode: false,
-        variableWidth: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }}
-      >
-        {children}
-      </SlickSlider>
-    </Container>
-  );
-};
+const Slider = ({ children }) => (
+  <Container>
+    <SlickSlider {...{
+      dots: false,
+      infinite: true,
+      speed: 300,
+      centerMode: false,
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    }}
+    >
+      {children}
+    </SlickSlider>
+  </Container>
+);
 
 export default Slider;
