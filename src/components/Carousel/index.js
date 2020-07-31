@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   VideoCardGroupContainer, BoxInfo, Title, ExtraLink,
 } from './styles';
@@ -22,9 +23,9 @@ function Carousel({
           </Title>
           {categoryExtraLink
             && (
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}
-            </ExtraLink>
+              <ExtraLink href={categoryExtraLink.url} target="_blank">
+                {categoryExtraLink.text}
+              </ExtraLink>
             )}
         </BoxInfo>
       )}
@@ -48,5 +49,10 @@ function Carousel({
     </VideoCardGroupContainer>
   );
 }
+
+Carousel.propTypes = {
+  ignoreFirstVideo: PropTypes.string.isRequired,
+  category: PropTypes.arrayOf.isRequired,
+};
 
 export default Carousel;
