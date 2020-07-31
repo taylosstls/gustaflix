@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import TemplateBase from '../../../components/Template';
 import FormField from '../../../components/FormField';
@@ -34,6 +34,18 @@ const CadastroCategoria = () => {
     setCategory([...category, formValues]);
     setFormValues(formDataInitial);
   };
+
+  useEffect(() => {
+    fetch('http://localhost:3333/category')
+      .then(async (getCategories) => {
+        const response = await getCategories.json();
+        setTimeout(() => {
+          setCategory([
+            ...response,
+          ]);
+        }, 1000);
+      });
+  }, []);
 
   return (
     <TemplateBase>
@@ -73,6 +85,12 @@ const CadastroCategoria = () => {
           Cadastrar
         </Button>
       </form>
+
+      {category.length === 0 && (
+        <div>
+          Carregando...
+        </div>
+      )}
 
       <ul>
         {category.map((cat, indice) => (

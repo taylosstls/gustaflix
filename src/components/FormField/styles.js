@@ -36,7 +36,7 @@ color: #fff;
 display: block;
 width: 100%;
 height: 57px;
-font-size: 18px;
+font-size: 16px;
 
 outline: 0;
 border: 0;
