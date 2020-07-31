@@ -10,8 +10,3 @@ Link de Preview no Vercel: [https://gustaflix.vercel.app/](https://gustaflix.ver
 <p float="left">
 <img src="https://raw.githubusercontent.com/taylosstls/gustaflix/master/src/assets/img/gustaflix_apresentacao.png" width="500" alt="Gustaflix">
 </p>
-
-### `yarn start`
-
-Executa o aplicativo no modo de desenvolvimento..<br />
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador.
