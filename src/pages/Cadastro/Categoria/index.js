@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import TemplateBase from '../../../components/Template';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 
-import { Container, Title } from './styles';
+import {
+  Container, Title, ContainerTop, LinkStyled,
+} from './styles';
 
 const CadastroCategoria = () => {
   const formDataInitial = {
@@ -43,9 +44,15 @@ const CadastroCategoria = () => {
   return (
     <TemplateBase>
       <Container>
-        <Title>
-          Cadastro de Categoria:
-        </Title>
+        <ContainerTop>
+          <Title>
+            Cadastro de Categoria:
+          </Title>
+
+          <LinkStyled to="/cadastro/video">
+            Cadastrar Vídeo
+          </LinkStyled>
+        </ContainerTop>
 
         <form onSubmit={handleSubmit}>
 
@@ -92,9 +99,6 @@ const CadastroCategoria = () => {
           ))}
         </ul>
 
-        <Link to="/cadastro/video">
-          Cadastrar Vídeo
-        </Link>
       </Container>
     </TemplateBase>
   );

@@ -1,22 +1,26 @@
-import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import TemplateBase from '../../../components/Template';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import videosRepository from '../../../repositories/videos';
+import categoriesRepository from '../../../repositories/category';
 
-import { Container, Title } from './styles';
+import {
+  Container, Title, ContainerTop, LinkStyled,
+} from './styles';
 
 const CadastroVideo = () => {
   const history = useHistory();
+  const [categories, setCategories] = useState([]);
+  const categoryTitles = categories.map(({ title }) => title);
+
   const { handleChange, formValues } = useForm({
-    title: 'Video padrão',
-    url: 'https://www.youtube.com/watch?v=q6_6Nh4Js2Q',
-    category: 'Games',
-    videoDescription: `Ten hours of calm Resident Evil 7 save room music.
-    ····················································································
-    Game: Resident Evil 7: Biohazard`,
+    title: '',
+    url: '',
+    category: '',
+    videoDescription: '',
   });
 
   const handleSubmit = (event) => {
@@ -38,12 +42,26 @@ const CadastroVideo = () => {
       });
   };
 
+  useEffect(() => {
+    categoriesRepository
+      .getAllCategories()
+      .then((categoriesFromServer) => {
+        setCategories(categoriesFromServer);
+      });
+  }, []);
+
   return (
     <TemplateBase>
       <Container>
-        <Title>
-          Página de Cadastro de Vídeo:
-        </Title>
+        <ContainerTop>
+          <Title>
+            Cadastro de Vídeo
+          </Title>
+
+          <LinkStyled to="/cadastro/categoria">
+            Cadastrar Categoria
+          </LinkStyled>
+        </ContainerTop>
 
         <form onSubmit={handleSubmit}>
 
@@ -64,6 +82,15 @@ const CadastroVideo = () => {
           />
 
           <FormField
+            type="text"
+            label="Categoria do vídeo"
+            name="category"
+            value={formValues.category}
+            onChange={handleChange}
+            suggestions={categoryTitles}
+          />
+
+          <FormField
             type="textarea"
             label="Descrição do vídeo"
             name="videoDescription"
@@ -76,9 +103,6 @@ const CadastroVideo = () => {
           </Button>
         </form>
 
-        <Link to="/cadastro/categoria">
-          Cadastrar Categoria
-        </Link>
       </Container>
     </TemplateBase>
   );

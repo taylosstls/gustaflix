@@ -46,6 +46,7 @@ function Home() {
 
         return (
           <Carousel
+            ignoreFirstVideo={false}
             key={categoria.id}
             category={categoria}
           />

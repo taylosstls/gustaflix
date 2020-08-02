@@ -14,6 +14,18 @@ function getAllWithVideos() {
     });
 }
 
+function getAllCategories() {
+  return fetch(`${URL_CATEGORIES}`)
+    .then(async (serverResponse) => {
+      if (serverResponse.ok) {
+        const response = await serverResponse.json();
+        return response;
+      }
+
+      throw new Error('Server offline');
+    });
+}
+
 export default {
-  getAllWithVideos,
+  getAllWithVideos, getAllCategories,
 };
