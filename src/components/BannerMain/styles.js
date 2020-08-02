@@ -97,7 +97,7 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
-    background: rgba(114,89,193,0.85);
+    background: rgba(248, 114, 66, 0.85);
   }
 
   &:after {

@@ -2,56 +2,47 @@
   "category": [
     {
       "id": 1,
-      "title": "Iniciante",
-      "color": "#7503A6",
+      "title": "Lo-Fi",
+      "color": "#F87242",
       "link_extra": {
-        "text": "Para quem está iniciando com Inglês",
-        "url": "https://www.ccaa.com.br/ingles-para-iniciantes/"
+        "text": "Lofi hip hop radio - Beats to relax/study",
+        "url": "https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow"
       }
     },
     {
       "id": 2,
-      "title": "Intermediário",
+      "title": "OST",
       "color": "#2405F2",
       "link_extra": {
-        "text": "Para quem está no nível intermediário do Inglês",
-        "url": "https://www.wizard.com.br/idiomas/ingles-intermediario/"
+        "text": "Original Soundtrack",
+        "url": "https://www.youtube.com/channel/UCzHDZW3_LWWzS14CUfNy3xw"
       }
     },
     {
       "id": 3,
-      "title": "Avançado",
+      "title": "Cursos",
       "color": "#4227F2",
       "link_extra": {
-        "text": "Para quem está no nível avançado do Inglês ",
-        "url": "https://certificadocursosonline.com/cursos/curso-de-ingles-avancado-i/"
+        "text": "Video aulas rápidas e dinâmicas",
+        "url": "https://www.youtube.com/c/Origamid"
       }
     },
     {
       "id": 4,
-      "title": "Leitura",
+      "title": "Animes",
       "color": "#BFA004",
       "link_extra": {
-        "text": "Aprimore sua leitura em Inglês",
-        "url": "https://www.uptime.com.br/blog/aprendendo-ingles-dicas-para-treinar-o-reading"
+        "text": "Notícias e Reviews",
+        "url": "https://www.youtube.com/channel/UCawsJGDMV6IOm6z9yiOyIsQ"
       }
     },
     {
       "id": 5,
-      "title": "Escrita",
+      "title": "Games",
       "color": "#D97904",
       "link_extra": {
-        "text": "Aprimore sua escrita em Inglês",
-        "url": "https://www.wizard.com.br/idiomas/como-escrever-em-ingles-dicas-para-melhorar-a-escrita/"
-      }
-    },
-    {
-      "id": 6,
-      "title": "Escuta",
-      "color": "#5EDB6D",
-      "link_extra": {
-        "text": "Aprimore sua escuta em Inglês",
-        "url": "https://www.inglesnapontadalingua.com.br/2013/06/dicas-para-melhorar-o-listening-em-ingles.html"
+        "text": "Reviews, Histórias e Análises",
+        "url": "https://www.youtube.com/user/Zangado"
       }
     }
   ],
@@ -59,197 +50,159 @@
     {
       "id": 1,
       "categoryId": 1,
-      "title": "Como eu aprendi Inglês? E entendendo padrões!",
-      "videoDescription": "Faala dev! Você já usou alguma lib de animação no React.js? Nesse vídeo eu, Guilherme Rodz, reproduzi o menu animado Stripe explicando sua complexidade, do zero! Bora assistir? Vaaleu! 💜",
-      "url": "https://www.youtube.com/watch?v=OkboNGQ9LU0"
+      "title": "Kupla - Life Forms",
+      "videoDescription": "OST stands for 'Original Soundtrack', as in the original song or songs from something like a movie, tv show or video game. The OST in this case would be the cut of the song or songs as they would be heard in said media. 💜",
+      "url": "https://www.youtube.com/watch?v=Mn4xQdrczao"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "title": "DICAS DE INGLÊS PARA INICIANTES, INTERMEDIÁRIOS E AVANÇADOS",
-      "url": "https://www.youtube.com/watch?v=Rn_bDRpwdp8"
+      "title": "Mila Coolness - Silent River",
+      "url": "https://www.youtube.com/watch?v=Vjzs4M0wAV0"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "title": "8 dicas para aprender inglês mais rápidos",
-      "url": "https://www.youtube.com/watch?v=IJE56Uuu-_o"
+      "title": "kudo - Staring Through",
+      "url": "https://www.youtube.com/watch?v=rRKZ9XAXDKg"
     },
     {
       "id": 4,
       "categoryId": 1,
-      "title": "Aulas de ingles Para Iniciantes",
-      "url": "https://www.youtube.com/watch?v=QsxYPwgH-lI"
+      "title": "Lazy Sunday 💤 - [lofi hip hop/chill beats]",
+      "url": "https://www.youtube.com/watch?v=zFhfksjf_mY"
     },
     {
       "id": 5,
       "categoryId": 1,
-      "title": "Quais textos são ideais para iniciantes no inglês? | Mairo Vergara",
-      "url": "https://www.youtube.com/watch?v=_HFZVTkf8f0"
+      "title": "Nothingtosay - Introspective",
+      "url": "https://www.youtube.com/watch?v=zEOnXL9Jo0A"
     },
     {
       "id": 6,
       "categoryId": 1,
-      "title": "Aprender inglês | Por onde começar?",
-      "url": "https://www.youtube.com/watch?v=d4T5YgwKzJo"
+      "title": "Flitz&Suppe x Mr. Käfer - Yōkai",
+      "url": "https://www.youtube.com/watch?v=Fd-2C-ue0h4"
     },
     {
       "id": 7,
       "categoryId": 2,
-      "title": "Teste de Inglês Intermediário: Consegue Acertar?",
-      "url": "https://www.youtube.com/watch?v=C1f7tdbb-f4"
+      "title": "Resident Evil 2 - The Basement of the Police Station [EXTENDED] Music",
+      "url": "https://www.youtube.com/watch?v=0HZ_1W7MGa4"
     },
     {
       "id": 8,
       "categoryId": 2,
-      "title": "Como passar do intermediário para o avançado - SEGREDO! - Dica de Inglês 2018",
-      "url": "https://www.youtube.com/watch?v=YmhU17Ejct4"
+      "title": "'Daredevil' - Ace Combat 7",
+      "url": "https://www.youtube.com/watch?v=-kVdCaczLE8"
     },
     {
       "id": 9,
       "categoryId": 2,
-      "title": "Como sair do nível intermediário no inglês? | Mairo Vergara",
-      "url": "https://www.youtube.com/watch?v=MtqSaZrgC-c"
+      "title": "Dark Souls 3 OST: Abyss Watchers",
+      "url": "https://www.youtube.com/watch?v=DoUs4UtqkCo"
     },
     {
       "id": 10,
       "categoryId": 2,
-      "title": "Saia do Intermediário: Como melhorar seu inglês no trabalho",
-      "url": "https://www.youtube.com/watch?v=WcdMQzZctOo"
+      "title": "Rivers In the Desert | Persona 5 OST",
+      "url": "https://www.youtube.com/watch?v=I6x_HR9oGlM"
     },
     {
       "id": 11,
       "categoryId": 2,
-      "title": "SAINDO DO MALDITO NÍVEL INTERMEDIÁRIO NO INGLÊS",
-      "url": "https://www.youtube.com/watch?v=-lUf3AMWBXY"
+      "title": "The Last of Us Original Soundtrack (full album)",
+      "url": "https://www.youtube.com/watch?v=DvNF51-TSAQ"
     },
     {
       "id": 12,
       "categoryId": 3,
-      "title": "Dica de inglês avançado | Advanced English tip",
-      "url": "https://www.youtube.com/watch?v=vnNloWou1g4"
+      "title": "Menu do Stripe com ReactJS | UI Clone",
+      "url": "https://www.youtube.com/watch?v=B7V0q0ZSz2o"
     },
     {
       "id": 13,
       "categoryId": 3,
-      "title": "Como aumentar vocabulário em inglês avançado - Dica de inglês grátis nível avançado",
-      "url": "https://www.youtube.com/watch?v=vy-EXoCdiA4"
+      "title": "E-commerce com WooCommerce e PagSeguro funcionando em 30 minutos",
+      "url": "https://www.youtube.com/watch?v=RfL8F0bRWg0"
     },
     {
       "id": 14,
       "categoryId": 3,
-      "title": "Seu Inglês Estagnou no Nível Avançado? | Mairo Vergara",
-      "url": "https://www.youtube.com/watch?v=yJygcOi2w7c"
+      "title": "Autenticação JWT com Context API e React Router",
+      "url": "https://www.youtube.com/watch?v=AClyxTbfI08"
     },
     {
       "id": 15,
       "categoryId": 3,
-      "title": "CANAIS PARA INGLÊS AVANÇADO | com legenda em inglês",
-      "url": "https://www.youtube.com/watch?v=KeNl5-RYOO4"
+      "title": "Programar Mais Rápido e Ser Mais Produtivo no Visual Studio Code (VSCode)",
+      "url": "https://www.youtube.com/watch?v=FCC2GbStmfc"
     },
     {
       "id": 16,
       "categoryId": 3,
-      "title": "5 dicas que vão melhorar MUITO o seu inglês",
-      "url": "https://www.youtube.com/watch?v=p5QncQhAkNQ"
+      "title": "API // Dicionário do Programador",
+      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
     },
     {
       "id": 17,
       "categoryId": 4,
-      "title": "Saiba como praticar o READING sozinho! 7 DICAS!",
-      "url": "https://www.youtube.com/watch?v=bnuM6wwjswk"
+      "title": "5 Animes ÓTIMOS que NINGUÉM FALA SOBRE!",
+      "url": "https://www.youtube.com/watch?v=O6DWJ8SMnM0"
     },
     {
       "id": 18,
       "categoryId": 4,
-      "title": "Dicas para melhorar a leitura em inglês - Estratégias",
-      "url": "https://www.youtube.com/watch?v=wT6S1kebp7I"
+      "title": "O QUE ACONTECEU COM ESSE ANIME?!?!",
+      "url": "https://www.youtube.com/watch?v=8C70fpHsuGE"
     },
     {
       "id": 19,
       "categoryId": 4,
-      "title": "Como melhorar seu reading - Turbine agora seu inglês",
-      "url": "https://www.youtube.com/watch?v=gNR11oWUtG0"
+      "title": "REFERÊNCIAS AO BRASIL nos ANIMES!",
+      "url": "https://www.youtube.com/watch?v=I1eJdgoxZFk"
     },
     {
       "id": 20,
       "categoryId": 4,
-      "title": "5 Estratégias Poderosas pra Melhorar o Reading em Inglês",
-      "url": "https://www.youtube.com/watch?v=uSLhKaQF5HY"
+      "title": "6 Lutas ESPETACULARES nos ANIMES!",
+      "url": "https://www.youtube.com/watch?v=xbtIPVRr2oY&t=134s"
     },
     {
       "id": 21,
       "categoryId": 4,
-      "title": "4 dicas para READING nos testes de proficiência (TOEFL, IELTS, etc)",
-      "url": "https://www.youtube.com/watch?v=5BDxWRNsvqc"
+      "title": "6 MORTES totalmente INESPERADAS nos ANIMES!",
+      "url": "https://www.youtube.com/watch?v=maxp-yqdJcI"
     },
     {
       "id": 22,
       "categoryId": 5,
-      "title": "Como melhorar o writing - Vamos escrever em inglês",
-      "url": "https://www.youtube.com/watch?v=WilmJzuOmjg"
+      "title": "SAGA METAL GEAR : ENCONTRE ALGO PARA ACREDITAR!",
+      "url": "https://www.youtube.com/watch?v=l-9EEg3XtI8"
     },
     {
       "id": 23,
       "categoryId": 5,
-      "title": "Como Melhorar A Escrita Em Inglês",
-      "url": "https://www.youtube.com/watch?v=qn2jU56QdSI"
+      "title": "ARQUIVO X: EU QUERO ACREDITAR!",
+      "url": "https://www.youtube.com/watch?v=I_Q24thKAIY"
     },
     {
       "id": 24,
       "categoryId": 5,
-      "title": "5 formas de melhorar seu writing! - Aula de Inglês #80",
-      "url": "https://www.youtube.com/watch?v=5DcJ_D_7j0g"
+      "title": "PAPER MARIO - THE ORIGAMI KING : A PRIMEIRA MEIA HORA",
+      "url": "https://www.youtube.com/watch?v=pKF6xLX7EVQ"
     },
     {
       "id": 25,
       "categoryId": 5,
-      "title": "4 Dicas Para Melhorar seu WRITING | Aula do Inglês Feito Fácil - IFF",
-      "url": "https://www.youtube.com/watch?v=P0x1oPZPcAI"
+      "title": "ASSASSIN'S CREED VALHALLA: SENTINDO O GOSTINHO!",
+      "url": "https://www.youtube.com/watch?v=vz-7jmdlqxw"
     },
     {
       "id": 26,
       "categoryId": 5,
-      "title": "4 TÁTICAS MATADORAS para praticar seu WRITING sozinho!",
-      "url": "https://www.youtube.com/watch?v=fCSEIMw2zIQ"
-    },
-    {
-      "id": 27,
-      "categoryId": 6,
-      "title": "4 dicas para treinar o seu listening no inglês | Mairo Vergara | Parte 10 de 365",
-      "url": "https://www.youtube.com/watch?v=oEwDLHNj9ok"
-    },
-    {
-      "id": 28,
-      "categoryId": 6,
-      "title": "Como Melhorar O Listening RÁPIDO?! - 5 Erros Ao Praticar O Listening",
-      "url": "https://www.youtube.com/watch?v=VH5KEnloWlI"
-    },
-    {
-      "id": 29,
-      "categoryId": 6,
-      "title": "COMO MELHORAR O LISTENING EM INGLÊS?",
-      "url": "https://www.youtube.com/watch?v=jeyK0jAfgfo"
-    },
-    {
-      "id": 30,
-      "categoryId": 6,
-      "title": "Sites para praticar o listening em inglês - Série Listening - Vídeo #3",
-      "url": "https://www.youtube.com/watch?v=0e8T1j-ONJw"
-    },
-    {
-      "id": 31,
-      "categoryId": 6,
-      "title": "Como Treinar Seu Listening em Inglês",
-      "url": "https://www.youtube.com/watch?v=too1TW3zBlE"
-    },
-    {
-      "title": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=q6_6Nh4Js2Q",
-      "videoDescription": "Ten hours of calm Resident Evil 7 save room music.\n····················································································\nGame: Resident Evil 7: Biohazard",
-      "category": "Games",
-      "categoryId": 6,
-      "id": 32
+      "title": "BOB ESPONJA: 21 ANOS DE DIABRURAS A BORDO E PROBLEMAS COM PEIXES!",
+      "url": "https://www.youtube.com/watch?v=WEE5r5VemjM"
     }
   ]
 }
