@@ -37,8 +37,6 @@ export const ExtraLink = styled.a`
   }
   @media (max-width: 800px) {
     display: block;
-    margin-bottom: 16px;
-    margin-left: 0;
   }
 `;
 
@@ -60,7 +58,6 @@ export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
   margin-left: 5%;
-  margin-top: -75px;
   margin-bottom: 40px;
   position: relative;
   z-index: 9;

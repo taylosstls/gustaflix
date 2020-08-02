@@ -2,15 +2,254 @@
   "category": [
     {
       "id": 1,
-      "name": "Front-end",
-      "description": "Uma categoria show",
-      "color": "#6bd1ff"
+      "title": "Iniciante",
+      "color": "#7503A6",
+      "link_extra": {
+        "text": "Para quem está iniciando com Inglês",
+        "url": "https://www.ccaa.com.br/ingles-para-iniciantes/"
+      }
     },
     {
       "id": 2,
-      "name": "Back-end",
-      "description": "Outra categoria show",
-      "color": "#4499ee"
+      "title": "Intermediário",
+      "color": "#2405F2",
+      "link_extra": {
+        "text": "Para quem está no nível intermediário do Inglês",
+        "url": "https://www.wizard.com.br/idiomas/ingles-intermediario/"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Avançado",
+      "color": "#4227F2",
+      "link_extra": {
+        "text": "Para quem está no nível avançado do Inglês ",
+        "url": "https://certificadocursosonline.com/cursos/curso-de-ingles-avancado-i/"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Leitura",
+      "color": "#BFA004",
+      "link_extra": {
+        "text": "Aprimore sua leitura em Inglês",
+        "url": "https://www.uptime.com.br/blog/aprendendo-ingles-dicas-para-treinar-o-reading"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Escrita",
+      "color": "#D97904",
+      "link_extra": {
+        "text": "Aprimore sua escrita em Inglês",
+        "url": "https://www.wizard.com.br/idiomas/como-escrever-em-ingles-dicas-para-melhorar-a-escrita/"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Escuta",
+      "color": "#5EDB6D",
+      "link_extra": {
+        "text": "Aprimore sua escuta em Inglês",
+        "url": "https://www.inglesnapontadalingua.com.br/2013/06/dicas-para-melhorar-o-listening-em-ingles.html"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Como eu aprendi Inglês? E entendendo padrões!",
+      "videoDescription": "Faala dev! Você já usou alguma lib de animação no React.js? Nesse vídeo eu, Guilherme Rodz, reproduzi o menu animado Stripe explicando sua complexidade, do zero! Bora assistir? Vaaleu! 💜",
+      "url": "https://www.youtube.com/watch?v=OkboNGQ9LU0"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "DICAS DE INGLÊS PARA INICIANTES, INTERMEDIÁRIOS E AVANÇADOS",
+      "url": "https://www.youtube.com/watch?v=Rn_bDRpwdp8"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "8 dicas para aprender inglês mais rápidos",
+      "url": "https://www.youtube.com/watch?v=IJE56Uuu-_o"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "Aulas de ingles Para Iniciantes",
+      "url": "https://www.youtube.com/watch?v=QsxYPwgH-lI"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "Quais textos são ideais para iniciantes no inglês? | Mairo Vergara",
+      "url": "https://www.youtube.com/watch?v=_HFZVTkf8f0"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "Aprender inglês | Por onde começar?",
+      "url": "https://www.youtube.com/watch?v=d4T5YgwKzJo"
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "title": "Teste de Inglês Intermediário: Consegue Acertar?",
+      "url": "https://www.youtube.com/watch?v=C1f7tdbb-f4"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "Como passar do intermediário para o avançado - SEGREDO! - Dica de Inglês 2018",
+      "url": "https://www.youtube.com/watch?v=YmhU17Ejct4"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "title": "Como sair do nível intermediário no inglês? | Mairo Vergara",
+      "url": "https://www.youtube.com/watch?v=MtqSaZrgC-c"
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "title": "Saia do Intermediário: Como melhorar seu inglês no trabalho",
+      "url": "https://www.youtube.com/watch?v=WcdMQzZctOo"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "title": "SAINDO DO MALDITO NÍVEL INTERMEDIÁRIO NO INGLÊS",
+      "url": "https://www.youtube.com/watch?v=-lUf3AMWBXY"
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "title": "Dica de inglês avançado | Advanced English tip",
+      "url": "https://www.youtube.com/watch?v=vnNloWou1g4"
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "title": "Como aumentar vocabulário em inglês avançado - Dica de inglês grátis nível avançado",
+      "url": "https://www.youtube.com/watch?v=vy-EXoCdiA4"
+    },
+    {
+      "id": 14,
+      "categoryId": 3,
+      "title": "Seu Inglês Estagnou no Nível Avançado? | Mairo Vergara",
+      "url": "https://www.youtube.com/watch?v=yJygcOi2w7c"
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "title": "CANAIS PARA INGLÊS AVANÇADO | com legenda em inglês",
+      "url": "https://www.youtube.com/watch?v=KeNl5-RYOO4"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "title": "5 dicas que vão melhorar MUITO o seu inglês",
+      "url": "https://www.youtube.com/watch?v=p5QncQhAkNQ"
+    },
+    {
+      "id": 17,
+      "categoryId": 4,
+      "title": "Saiba como praticar o READING sozinho! 7 DICAS!",
+      "url": "https://www.youtube.com/watch?v=bnuM6wwjswk"
+    },
+    {
+      "id": 18,
+      "categoryId": 4,
+      "title": "Dicas para melhorar a leitura em inglês - Estratégias",
+      "url": "https://www.youtube.com/watch?v=wT6S1kebp7I"
+    },
+    {
+      "id": 19,
+      "categoryId": 4,
+      "title": "Como melhorar seu reading - Turbine agora seu inglês",
+      "url": "https://www.youtube.com/watch?v=gNR11oWUtG0"
+    },
+    {
+      "id": 20,
+      "categoryId": 4,
+      "title": "5 Estratégias Poderosas pra Melhorar o Reading em Inglês",
+      "url": "https://www.youtube.com/watch?v=uSLhKaQF5HY"
+    },
+    {
+      "id": 21,
+      "categoryId": 4,
+      "title": "4 dicas para READING nos testes de proficiência (TOEFL, IELTS, etc)",
+      "url": "https://www.youtube.com/watch?v=5BDxWRNsvqc"
+    },
+    {
+      "id": 22,
+      "categoryId": 5,
+      "title": "Como melhorar o writing - Vamos escrever em inglês",
+      "url": "https://www.youtube.com/watch?v=WilmJzuOmjg"
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "title": "Como Melhorar A Escrita Em Inglês",
+      "url": "https://www.youtube.com/watch?v=qn2jU56QdSI"
+    },
+    {
+      "id": 24,
+      "categoryId": 5,
+      "title": "5 formas de melhorar seu writing! - Aula de Inglês #80",
+      "url": "https://www.youtube.com/watch?v=5DcJ_D_7j0g"
+    },
+    {
+      "id": 25,
+      "categoryId": 5,
+      "title": "4 Dicas Para Melhorar seu WRITING | Aula do Inglês Feito Fácil - IFF",
+      "url": "https://www.youtube.com/watch?v=P0x1oPZPcAI"
+    },
+    {
+      "id": 26,
+      "categoryId": 5,
+      "title": "4 TÁTICAS MATADORAS para praticar seu WRITING sozinho!",
+      "url": "https://www.youtube.com/watch?v=fCSEIMw2zIQ"
+    },
+    {
+      "id": 27,
+      "categoryId": 6,
+      "title": "4 dicas para treinar o seu listening no inglês | Mairo Vergara | Parte 10 de 365",
+      "url": "https://www.youtube.com/watch?v=oEwDLHNj9ok"
+    },
+    {
+      "id": 28,
+      "categoryId": 6,
+      "title": "Como Melhorar O Listening RÁPIDO?! - 5 Erros Ao Praticar O Listening",
+      "url": "https://www.youtube.com/watch?v=VH5KEnloWlI"
+    },
+    {
+      "id": 29,
+      "categoryId": 6,
+      "title": "COMO MELHORAR O LISTENING EM INGLÊS?",
+      "url": "https://www.youtube.com/watch?v=jeyK0jAfgfo"
+    },
+    {
+      "id": 30,
+      "categoryId": 6,
+      "title": "Sites para praticar o listening em inglês - Série Listening - Vídeo #3",
+      "url": "https://www.youtube.com/watch?v=0e8T1j-ONJw"
+    },
+    {
+      "id": 31,
+      "categoryId": 6,
+      "title": "Como Treinar Seu Listening em Inglês",
+      "url": "https://www.youtube.com/watch?v=too1TW3zBlE"
+    },
+    {
+      "title": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=q6_6Nh4Js2Q",
+      "videoDescription": "Ten hours of calm Resident Evil 7 save room music.\n····················································································\nGame: Resident Evil 7: Biohazard",
+      "category": "Games",
+      "categoryId": 6,
+      "id": 32
     }
   ]
 }

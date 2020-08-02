@@ -6,7 +6,6 @@ import Footer from '../Footer';
 const Main = styled.main`
   color: var(--white);
   flex: 1;
-  padding: 50px 30px;
 `;
 
 function TemplateBase({ children }) {
